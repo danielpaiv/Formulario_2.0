@@ -3,6 +3,7 @@
     $dbUsername = 'root';
     $dbpassword ='';
     $dbName = 'banco_dados';
+    
 
     $conexao = new mysqli($dbhost,$dbUsername,$dbpassword,$dbName);
 
