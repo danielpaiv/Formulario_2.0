@@ -39,11 +39,26 @@
         .inputsubmit:hover{
             background-color: deepskyblue;
         }
+        .btn{
+        color:white ;
+        padding: 5px;
+        text-decoration: none;
+    }
+    button{
+        border-radius: 5px;
+        text-decoration: none;
+        border: none;
+        padding: 15px;
+        background-image: linear-gradient(to right,rgb(130, 20, 220), rgb(44, 31, 220));
+
+    }
 
 
     </style>
 </head>
 <body>
+
+<button><a href="http://localhost/formulario_clientes/adm/index.php"class="btn btn-danger me-5">Cadastrar</a></button>
     
     <div>
         <h1>Login</h1>
