@@ -65,6 +65,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         .box{
+            columns: 1;
             position: absolute;
             top: 50%;
             left: 50%;
@@ -128,12 +129,13 @@
             background-image: linear-gradient(to right,rgb(255, 238, 48), rgb(233, 235, 86));
         }
         .btn{
-        color:red ;
-        padding: 5px;
+            text-decoration: none;
+            color:red ;
+            padding: 5px;
         }
         nav{
             background-color: red;
-            padding: 5px;
+            padding: 7px;
             position: absolute;
         }
        
@@ -143,10 +145,10 @@
 </head>
         
         <nav>
-            
             <button><a href="sair.php" class="btn btn-danger me-10">Sair</a></button>
             </div>
         </nav>
+
         <br><br>
 <body>
     <h1>Olá Adm !</h1>
