@@ -9,8 +9,8 @@
             font-family: Arial, Helvetica, sans-serif;
             background-image: linear-gradient(to right,rgb(20,147,220), rgb(17,54,71));
         }
-        div{
-            column-count: 3;
+        .box{
+            column-count: 1;
             background-color: rgba(0, 0, 0, 0.6);
             position: absolute;
             top: 50%;
@@ -60,7 +60,7 @@
 
 <button><a href="http://localhost/formulario_clientes/adm/index.php"class="btn btn-danger me-5">Cadastrar</a></button>
     
-    <div>
+    <div class="box">
         <h1>Login</h1>
         <h3>Sistema de seerviços</h3>
         <form action="testlogin.php"method="POST">

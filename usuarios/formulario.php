@@ -169,12 +169,13 @@
         border: 5px solid dodgerblue;
         position: absolute;
         letter-spacing: 3px;
-       
-       
-       
-        
     }
    
+    @media screen and (max-width: 400px){
+        .box{
+            width: 100%;
+        }
+    }
  
 
 </style>
