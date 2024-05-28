@@ -22,6 +22,7 @@
 
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
     <script src="script.js"></script>
+    <script src="filtroData.js"></script>
 
 </head>
 
@@ -34,9 +35,14 @@
 
 <div class="m-5">
     
-<label for="filtroNome">Filtrar por nome:</label>
+    <label for="filtroNome">Filtrar por nome:</label>
     <input type="text" id="filtroNome">
     <button onclick="filtrarPorNome()">Filtrar</button>
+
+    <label for="filtroData"><b>data_ped</b></label>
+    <input type="date" name="data_ped" id="filtroData" required>  
+    <button onclick="filtrarPorData()">Filtrar</button>
+    <br>
 
         <table class="box">
             <thead>
@@ -79,5 +85,8 @@
             </tbody>
         </table>
     </div>   
+    <script>
+        
+    </script>
 </body>
 </html>
