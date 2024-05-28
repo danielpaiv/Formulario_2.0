@@ -195,6 +195,7 @@
         <!--<button><a href="formularios.php"class="btn btn-danger me-5">Volta</a></button>>-->
 
         <button><a href="http://localhost/formulario_clientes/adm/index.php"class="btn btn-danger me-5">Cadastrar</a></button>
+        <button><a href="http://localhost/formulario_clientes/listar/listar-serv.php"class="btn btn-danger me-5">Listar</a></button>
         
     </nav> 
 
